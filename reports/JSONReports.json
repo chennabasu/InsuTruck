@@ -1,0 +1,132 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-07-04T09:48:08.254Z",
+        "before": [
+          {
+            "result": {
+              "duration": 12691675100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.cucumber.hook.Hook.setup()"
+            }
+          }
+        ],
+        "line": 2,
+        "name": "Verify user can buy a insurance for truck",
+        "description": "",
+        "id": "truck-insuarance;verify-user-can-buy-a-insurance-for-truck",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 759896700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User clicks on truck link and provide all vehicle details and clicks on next button",
+            "match": {
+              "location": "stepDefinitions.InsuTruck.user_clicks_on_truck_link_and_provide_all_vehicle_data_and_clicks_on_next_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 12204436000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enter insurant data and clicks on next botton",
+            "match": {
+              "location": "stepDefinitions.InsuTruck.user_enter_insurant_data_and_clicks_on_next_botton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 13106102500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enter all product data and clicks on next button",
+            "match": {
+              "location": "stepDefinitions.InsuTruck.user_enter_all_product_data_and_clicks_on_next_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "io.cucumber.java.PendingException: TODO: implement me\r\n\tat stepDefinitions.InsuTruck.user_select_choise_of_price_option_and_clicks_on_view_quote_button(InsuTruck.java:131)\r\n\tat ✽.user select choise of price option and clicks on view quote button(file:///C:/Users/chenna/eclipse-workspace/InsuranceTricentris/./src/test/java/features/InsuTruck.feature:9)\r\n",
+              "duration": 24930700,
+              "status": "pending"
+            },
+            "line": 9,
+            "name": "user select choise of price option and clicks on view quote button",
+            "match": {
+              "location": "stepDefinitions.InsuTruck.user_select_choise_of_price_option_and_clicks_on_view_quote_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2022800,
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "user enters mailing valid data and clicks on next button",
+            "match": {
+              "location": "stepDefinitions.InsuTruck.user_enters_mailing_valid_data_and_clicks_on_next_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 998400,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "user is promted with sending email success message",
+            "match": {
+              "location": "stepDefinitions.InsuTruck.user_is_promted_with_sending_email_success_message()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1994800,
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "user clicks on ok button of successfull message board",
+            "match": {
+              "location": "stepDefinitions.InsuTruck.user_clicks_on_ok_button_of_successfull_message_board()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 997500,
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "user clicks on home button at footer page to land on home page",
+            "match": {
+              "location": "stepDefinitions.InsuTruck.user_clicks_on_home_button_at_footer_page_to_land_on_home_page()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Truck Insuarance",
+    "description": "",
+    "id": "truck-insuarance",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/InsuTruck.feature",
+    "tags": []
+  }
+]

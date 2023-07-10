@@ -1,2 +1,2 @@
 # InsuTruck
-Cucumber BDD test
+Cucumber BDD
